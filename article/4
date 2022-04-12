@@ -1,0 +1,95 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/open-iconic/svg/calculator.svg">
+
+    <title> Alsite! </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    
+    <link href="/blog/static/style.css" rel="stylesheet">
+  </head>
+
+  <body class="text-left">
+
+      <header class="mb-auto">
+        <div class="container-sm">
+          <nav class="navbar">
+            <div class="container">
+              <a class="navbar-brand align-items-center" style="color: rgb(0, 0, 0); text-decoration: none" href="/">
+                <img src="/blog/static/sign.png" width="60" height="60" class="d-inline-block align-top">
+              </a>
+              <div class="d-flex">
+                <a class="nav-link font-weight-bold" style="color: rgb(0, 0, 0, 0.5)" href="/about">About</a>
+                <a class="nav-link font-weight-bold" style="color: rgb(0, 0, 0, 0.5)" href="/posts">Posts</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      
+      
+      <main role="main" class="mx-auto" style="width: 700px">
+        
+
+    <small>April 9, 2022</small>
+    <h1>The REAL Hello World</h1>
+    <br>
+
+<hr><br>
+
+<p align="justify">Well, many years have passed since my last time writing my own diary or blog post. Lots of things have happened ever since and I am here finally -- pursuing my own dream of becoming an engineer and builder. Letting go of one's own fear of uncertainty and incompetency (sometimes known as impostor syndrome), as well as the pursuit of perfectionism really needs effort, time, confidence, and instinct of some sort. Let's hustle together and head straight towards our own goals.</p>
+
+<p>（中文水平頗為退步，請諒）</p>
+
+<p>其實上一次寫自己的日記也許已經是五年以前的事，這次之所以無聊地為自己寫一個個人網站，也是為了一箭N鵰：學習如何寫網頁、展示自己學習編程和電腦科學（甚或乎其他方面的知識，如果有機會的話）的成果、以及紀錄和反省自己的思考和觀點。希望未來能夠定期在這裏寫些文章，作為個人心路歷程的小小見證；亦希望個人的文字、紀事亦可以令讀者有所啟發、反思。無言感激。</p>
+
+
+
+<a href="/posts" class="btn-lg btn btn-secondary">Back</a>
+
+
+      </main>
+
+      <footer class="footer py-3 static-bottom">
+        <div class="container">
+          <p>
+            <b>Find me at:</b>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://www.linkedin.com/in/cheuk-fung-alex-lam-907986227/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://github.com/cfalexlam">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="mailto:calexlam@hku.hk">Email: calexlam@hku.hk</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.nav-link').click(function() {
+          $('.nav-link.active').removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
+
+<!-- taken from @mbo -->

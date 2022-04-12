@@ -1,0 +1,28 @@
+main{
+    min-height:500px;
+    width: 700px;
+}
+
+header{
+    padding:10px;
+}
+
+a {
+    color: rgb(61, 179, 179);
+}
+
+
+
+@media (min-width: 800px) {
+    .container{
+        max-width: 800px;
+    }
+}
+
+p{
+    text-align:justify ;
+}
+
+.active{
+    text-decoration: underline;
+}

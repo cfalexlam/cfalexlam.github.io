@@ -1,0 +1,120 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/open-iconic/svg/calculator.svg">
+
+    <title> Alsite! </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    
+    <link href="/blog/static/style.css" rel="stylesheet">
+  </head>
+
+  <body class="text-left">
+
+      <header class="mb-auto">
+        <div class="container-sm">
+          <nav class="navbar">
+            <div class="container">
+              <a class="navbar-brand align-items-center" style="color: rgb(0, 0, 0); text-decoration: none" href="/">
+                <img src="/blog/static/sign.png" width="60" height="60" class="d-inline-block align-top">
+              </a>
+              <div class="d-flex">
+                <a class="nav-link font-weight-bold" style="color: rgb(0, 0, 0, 0.5)" href="/about">About</a>
+                <a class="nav-link font-weight-bold" style="color: rgb(0, 0, 0, 0.5)" href="/posts">Posts</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      
+      
+      <main role="main" class="mx-auto" style="width: 700px">
+        
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 p-1">
+            <h3>Interest</h3>
+        </div>
+        <div class="col-md-4 align-self-center">
+            <img class="img-thumbnail float-left " src="/blog/static/psi.png"><img>
+        </div>
+        <div class="col-md-8 align-self-center">
+            <p class="lead">I have a diversity of interests, ranging from Programming, Science to Math and Statistics. 
+                Other side interests include Investment and even International Relations. I do sometimes read about Psychology and Behavioural Science. 
+            </p>
+        </div>
+
+        <div class="col-md-12 p-1">
+            <br><h3>Hobbies</h3>
+        </div>
+        <div class="col-md-4 align-self-center">
+            <img class="img-thumbnail float-left" src="/blog/static/hockey.png"><img>
+        </div>
+        <div class="col-md-8 align-self-center">
+            <p class="lead">It may be to your surprise that I am an amateur jogger and hockey player. Football has also been one of my favourites (please don't tell others that I am a fan of Manchester United at this moment). Recently, I am adhering to a home gym plan to make me healthier. 
+                I also like old music, especially Canotonese and English classics in the 80s' and 90s'.
+            </p>
+        </div>
+
+        <div class="col-md-12 p-1">
+            <br><h3>Projects and CS experience</h3>
+        </div>
+        <div class="col-md-4 align-self-center">
+            <img class="img-thumbnail float-left" src="/blog/static/python2.jpg"><img>
+        </div>
+        <div class="col-md-8 align-self-center">            
+            <p class="lead">During my gap year, I did several CS courses including Discrete Math and Data Structure and Algorithms. 
+                Aside from didactic learning, I wrote a Python program with one of my friends to automate the booking of HKU sports facilities, 
+                in particular with the use of libraries including OpenCV and TensorFlow for verification code recognition. 
+                I also took some online courses including Harvard's CS50 and CS50AI.
+            </p>
+        </div>
+
+
+      </main>
+
+      <footer class="footer py-3 static-bottom">
+        <div class="container">
+          <p>
+            <b>Find me at:</b>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://www.linkedin.com/in/cheuk-fung-alex-lam-907986227/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://github.com/cfalexlam">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="mailto:calexlam@hku.hk">Email: calexlam@hku.hk</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.nav-link').click(function() {
+          $('.nav-link.active').removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
+
+<!-- taken from @mbo -->
